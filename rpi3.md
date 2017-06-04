@@ -1,6 +1,6 @@
 # Raspberry Pi 3
 
-Basically, follow this instructions: https://github.com/scottdraves/electricsheep/wiki/Compiling 
+Basically, follow these instructions: https://github.com/scottdraves/electricsheep/wiki/Compiling 
 
 ````
 sudo apt-get update
@@ -14,7 +14,7 @@ make
 sudo make install
 cd
 
-git clone https://github.comscottdraves/flam3.git
+git clone https://github.com/scottdraves/flam3.git
 cd flam3
 ./configure
 make
