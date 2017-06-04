@@ -1,5 +1,7 @@
 # Raspberry Pi 3
 
+I built ElectricSheep on RPi3 with Raspbian.
+
 Basically, follow these instructions: https://github.com/scottdraves/electricsheep/wiki/Compiling 
 
 ````
