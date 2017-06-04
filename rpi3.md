@@ -9,7 +9,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install subversion autoconf libtool libgtk2.0-dev libgl1-mesa-dev libavcodec-dev libavformat-dev libswscale-dev liblua5.1-0-dev libcurl4-openssl-dev libxml2-dev libjpeg8-dev libgtop2-dev libboost-dev libboost-filesystem-dev libboost-thread-dev libtinyxml-dev freeglut3-dev glee-dev
 
-sudo apt-get install libwxbase31-0-unofficial
+cd
+wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.0/wxWidgets-3.1.0.tar.bz2
+tar -vxjf wxWidgets-3.1.0.tar.bz2
 cd wxWidgets-3.1.0
 ./configure
 make
